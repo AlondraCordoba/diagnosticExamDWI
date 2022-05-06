@@ -51,7 +51,12 @@ function App() {
           </Col>
           <Col className="text1">
            <h3>Great food</h3>
-           <img src={imgdess} className="imgdesse" />
+           <div className="imgcaption">
+            <img src={imgdess} className="imgdesse" />
+              <div className="imgtext">
+                <p>  <b>Some Header Content Caption <br></br><br></br></b> "A croissant is a buttery, flaky, French viennoiserie pastry inspired by the shape of the Austrian kipferl. This sweet confection is ideal for snacking"</p>
+              </div>
+           </div>
            <p>A croissant is a buttery, flaky, French viennoiserie pastry inspired by the shape of the Austrian kipferl but using the French yeast-leavened laminated dough. Pie Brownies are a fun, indulgent and absolutely irresistible recipe!</p>
           </Col>
           <Col className="text1">
