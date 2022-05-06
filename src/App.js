@@ -63,11 +63,11 @@ function App() {
         </Row>
       </Container>
 
-      <footer class="text-center text-lg-start bg-light text-muted">
-        <div class="text-center p-4" style="rgb(217,228,234);">
-           © 2021 Copyright:
+      <div class="text-center text-lg-start text-muted footercolor">
+        <div class="text-center p-4">
+           © 2022 Residents of The Best City Ever.
         </div>
-      </footer>
+      </div>
     </div>
   );
 }
