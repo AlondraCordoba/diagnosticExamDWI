@@ -4,6 +4,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import logo from './assets/img/bostonimg.jpg';
+import imgdess from './assets/img/desserts.webp';
 import './App.css';
 
 function App() {
@@ -50,6 +51,7 @@ function App() {
           </Col>
           <Col className="text1">
            <h3>Great food</h3>
+           <img src={imgdess} className="imgdesse" />
            <p>A croissant is a buttery, flaky, French viennoiserie pastry inspired by the shape of the Austrian kipferl but using the French yeast-leavened laminated dough. Pie Brownies are a fun, indulgent and absolutely irresistible recipe!</p>
           </Col>
           <Col className="text1">
@@ -61,6 +63,11 @@ function App() {
         </Row>
       </Container>
 
+      <footer class="text-center text-lg-start bg-light text-muted">
+        <div class="text-center p-4" style="rgb(217,228,234);">
+           © 2021 Copyright:
+        </div>
+      </footer>
     </div>
   );
 }

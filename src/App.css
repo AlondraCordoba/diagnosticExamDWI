@@ -58,5 +58,11 @@ h3{color: #1F4B66;}
   margin-bottom: 15px !important;
 }
 .text1 p{
-  font-size: 20px !important;
+  font-size: 18px !important;
+}
+.imgdesse{
+  height: 300px;
+  width: 400px;
+  white-space: pre;
+  margin-bottom: 30px;
 }
